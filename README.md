@@ -213,7 +213,7 @@ All additional HTML attributes (`class`, `id`, `alt`, `style`, etc.) are forward
     :border="2"
     border-color="000000"
     border-style="dashed"
-    class="rounded-full"
+    rounded="full"
 />
 ```
 
@@ -236,6 +236,7 @@ All additional HTML attributes (`class`, `id`, `alt`, `style`, etc.) are forward
 | `border`      | `int`    | No       | `0`      | Border width in pixels                                                     |
 | `border-color`| `string` | No       | —        | Border color — hex without `#`                                               |
 | `border-style`| `string` | No       | `"solid"` | Border style: `solid`, `dashed`, `dotted`, `double`, `none`                  |
+| `rounded`     | `string \| int` | No       | —         | Border radius: `none`, `sm`, `md`, `lg`, `xl`, `2xl`, `3xl`, `full`, or px  |
 | `text-decoration` | `string` | No   | —        | Decoration: `underline`, `overline`, `line-through`, `none`                 |
 | `letter-spacing` | `string` | No    | —        | Spacing: `tighter`, `tight`, `normal`, `wide`, `wider`, `widest`, or px    |
 | `blur`        | `int`    | No       | —        | Gaussian blur in px (0–100)                                                |

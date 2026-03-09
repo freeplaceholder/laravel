@@ -7,3 +7,4 @@ vendor
 .env.test.local
 .env.production.local
 coverage
+.DS_Store
